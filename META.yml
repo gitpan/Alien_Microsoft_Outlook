@@ -1,0 +1,31 @@
+name:                  Alien-Microsoft-Outlook
+version:               0.03_001
+abstract:              Check if Microsoft outlook is installed.
+author:                Duncan <duncan@cpan.org>
+
+licence:               artistic_2
+distribution_type:     module
+installdirs:           site
+
+requires:
+   perl:               5.006
+build_requires         Test::More:             0
+                       Test::Exception:        0
+                       
+provides:
+    Alien::Microsoft::Outlook:
+       file:         lib/Alien/Microsoft/Outlook
+       version:      0.03_001
+no_index:
+  directory:
+    - t
+    - examples
+    
+resources:
+  license:  http://www.perlfoundation.org/artistic_license_2_0
+  bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Alien-Microsoft-Outlook
+  
+meta-spec:
+  version: 2.142060
+  generated_by: Hand 1.0
+  
